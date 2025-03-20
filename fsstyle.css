@@ -1,0 +1,100 @@
+
+
+
+
+.wrapper{
+    height:100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right:0;
+    position: fixed;
+    background: linear-gradient(124deg ,#ff2400, #ff2400, #e81d1d, #e81d1d, #e8b71d, #e8b71d, #e3e81d, #e3e81d, #1de840, #1de840, #1ddde8, #1ddde8, #2b1de8, #2b1de8, #dd00f3, #dd00f3, #ff2400, #ff2400);
+    background-size: 1800% 1800%;
+    animation: rainbow 200s ease infinite;
+}
+
+#Username {
+    position: relative;
+    top: -270px;
+    left: -370px;
+    width: 210px;
+    height: 30px;
+    color: white;
+    font: 30px bold arial;
+    background: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+    text-align:end;
+    text-overflow: ellipsis;
+  }
+
+@keyframes srainbow { 
+    0% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes rainbow { 
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b0baff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    overflow: hidden
+}
+
+h1 {
+    position: fixed;
+    top: 5px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff; 
+    user-select: none;
+}
+
+canvas {
+    border: 2px solid #333;
+    border-radius: 20px;
+    background:linear-gradient(124deg ,#ff2400, #ff2400, #e81d1d, #e81d1d, #e8b71d, #e8b71d, #e3e81d, #e3e81d, #1de840, #1de840, #1ddde8, #1ddde8, #2b1de8, #2b1de8, #dd00f3, #dd00f3, #ff2400, #ff2400);
+    background-size: 1800% 1800%;
+    animation: srainbow 144s ease infinite;
+    position: fixed;
+    cursor: url('sledgehammer_cursor.png') 45 20, none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
