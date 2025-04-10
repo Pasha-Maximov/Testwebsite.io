@@ -1,0 +1,94 @@
+.maincanvas {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 0.5%;
+    width: 99%;
+    height: 99%;
+    position: fixed;
+    background-color: #999999;
+}
+
+.textcanvas {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    height: 20%;
+    position: fixed;
+    background-color: #49494940;
+    text-align: center;
+}
+
+.selectioncanvas1 {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 50%;
+    left: 30%;
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+.selectioncanvas2 {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 50%;
+    left: 55%;
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+.selectioncanvas3 {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 65%;
+    left: 30%;
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+.selectioncanvas4 {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 65%;
+    left: 55%;
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+
+.maintitle {
+    position: fixed;
+    top: 5px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.home {
+    position: fixed;
+    top: 5px;
+    left: 25px;
+    font-size: 24px;
+    width: 100%;
+}
+
+h2 {
+    position: fixed;
+    top: 35px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
