@@ -1,0 +1,186 @@
+.maincanvas1 { 
+    position: absolute;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 0.5%;
+    width: 99%;
+    height: 99%;
+    background: linear-gradient(180deg, #664a7e, #463827);
+}
+
+.maincanvas2 {
+    position: absolute;
+    border: 2px solid #8e009b;
+    border-radius: 20px;
+    top: 2%;
+    left: 1%;
+    width: 70%;
+    height: 71%;
+    background: linear-gradient(180deg, #664a7e, #463827);
+}
+
+.maincanvas3 {
+    position: absolute;
+    border: 2px solid #8e009b;
+    border-radius: 20px;
+    top: 2%;
+    left: 72%;
+    width: 27%;
+    height: 50%;
+    background: linear-gradient(180deg, #664a7e, #463827);
+}
+
+.maincanvas4 {
+    position: absolute;
+    border: 2px solid #8e009b;
+    border-radius: 20px;
+    top: 54%;
+    left: 72%;
+    width: 27%;
+    height: 43%;
+    background: linear-gradient(180deg, #664a7e, #463827);
+}
+
+.maincanvas5 {
+    position: absolute;
+    border: 2px solid #8e009b;
+    border-radius: 20px;
+    top: 75%;
+    left: 1%;
+    width: 70%;
+    height: 22%;
+    background: linear-gradient(180deg, #664a7e, #463827);
+}
+
+h1, .welcometitle {
+    position: absolute;
+    top: -2.2%;
+    left: auto;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+h1, .desctext {
+    position: absolute;
+    top: -1%;
+    left: auto;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+h1, .maingames {
+    position: absolute;
+    top: 1%;
+    left: 34%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h1, .minigames {
+    position: absolute;
+    top: 53%;
+    left: 36%;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+h1, .other {
+    position: absolute;
+    top: 74%;
+    left: 34%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .mamlink {
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .whglink {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .fslink {
+    position: absolute;
+    top: 19%;
+    left: 4%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .cglink {
+    position: absolute;
+    top: 59%;
+    left: 75%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .abmelink {
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+}
+
+h2, .caslink {
+    position: absolute;
+    top: 86%;
+    left: 4%;
+    font-size: 24px;
+    text-align:justify;
+    width: 100%;
+    color: #570041;
+}
+
+.mamimg {
+    position: absolute;
+    border-radius: 10%;
+    top: 7%;
+    left: 25%
+}
+
+.whgimg {
+    position: absolute;
+    border-radius: 10%;
+    top: 13%;
+    left: 30.5%
+}
+
+.fsimg {
+    position: absolute;
+    border-radius: 10%;
+    top: 19%;
+    left: 21%
+}
+
+.Mycelium {
+    position: absolute;
+    border-radius: 10%;
+    top: 3.5%;
+    left: 74.5%;
+    width: 22%;
+}
+
+body {
+    overflow: hidden;
+}
